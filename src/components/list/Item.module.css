@@ -1,0 +1,61 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+
+  border-radius: 0.5rem;
+  color: var(--gray-200);
+  padding: 1rem;
+  width: 100%;
+}
+
+.item label {
+  position: relative;
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+.checkbox {
+  appearance: none;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 100%;
+}
+
+.checkbox-unchecked {
+  appearance: none;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 100%;
+  background: transparent;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+
+.checkbox-checked {
+  appearance: none;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 100%;
+  background: var(--purple);
+  border: 1px solid var(--purple);
+  color: var(--white);
+}
+
+.paragraph-checked {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.checkboxIcon {
+  position: absolute;
+  left: 0.15rem;
+  cursor: pointer;
+}
+
+.deleteButton {
+  cursor: pointer;
+  color: var(--gray-300);
+}

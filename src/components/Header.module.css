@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: var(--gray-700);
+  height: 200px;
+}
+
+.logo {
+  width: 126px;
+  height: auto;
+}
