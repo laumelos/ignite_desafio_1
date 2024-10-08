@@ -1,4 +1,5 @@
 To-Do List - Desafio React
+
 Este projeto foi desenvolvido como parte do primeiro desafio da formação de React da Rocketseat, utilizando React e TypeScript. O objetivo do desafio era criar uma aplicação simples de lista de tarefas (To-Do List) para praticar conceitos de React, como componentes, estados e manipulação de eventos.
 
 ## Funcionalidades
